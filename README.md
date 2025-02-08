@@ -75,3 +75,8 @@ Grade_2: Grade received in the second assessment.
 Final_Grade: Final grade received (G3).
 
 Dropped_Out: Indicator of whether the student has dropped out (True/False).
+
+# 3. Direction of Training
+
+1. Baseline Model:
+   Apply the naive basline model, model predicting the result with the most frequency in training data, and achieve 85% in accuracy. 
