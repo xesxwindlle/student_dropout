@@ -90,6 +90,16 @@ Dropped_Out: Indicator of whether the student has dropped out (True/False).
 
    Use cross-validation to train a classification tree model and show a tree graph based with clear splits on nodes resulting in highest impurity. The model achieves a 88% in accuracy, 83% in TPR, and 11% in FPR. 
 
-4. 
+4. Random Forest Model:
+
+   Use cross-validation and boostrap agrregation to train a random forest model that achieves 92% in accuracy, 80% in TPR, and 5% in FPR.
+
+# 4. Findings
+• "Grade_1”, “Grade_2” appear to be determining of the result in all three models. 
+• In the later validation process with boostrap and visualization of confidence interval, there is no statistical difference in terms of accuracy and TPR within these three models. The performance of FPR, however, can be shwon different according to the result. 
+
+
+
+   
    
 
