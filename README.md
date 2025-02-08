@@ -78,6 +78,18 @@ Dropped_Out: Indicator of whether the student has dropped out (True/False).
 
 # 3. Direction of Training
 
-1. Baseline Model:
+1. Naive Baseline Model:
    
-   Apply the naive basline model, model predicting the result with the most frequency in training data, and achieve 85% in accuracy. 
+   Apply the naive basline model, model predicting the result with the most frequency in training data, and achieve 85% in accuracy.
+
+2. Logistic Regression Model:
+
+   Fit the logistc regression model and went through a features selection process to reduce multi-collinearity. The model ends up with 94% accuracy, 69% in TPR, and 1% in FPR. Features such as Grade_1, Grade_2, and Age are included.
+
+3. Classification Tree Model:
+
+   Use cross-validation to train a classification tree model and show a tree graph based with clear splits on nodes resulting in highest impurity. The model achieves a 88% in accuracy, 83% in TPR, and 11% in FPR. 
+
+4. 
+   
+
