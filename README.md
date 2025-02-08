@@ -7,6 +7,7 @@ The problem this project aims to solve is predicting student dropout rates based
 The Dropout dataset is downloaded from Kaggle website. In total, there are 650 student records and 34 features. 
 
 **Attributes of Dropout dataset are as following:**
+
 School: Name of the school attended (e.g., MS).
 Gender: Gender of the student (e.g., M for Male, F for Female).
 Age: Age of the student.
