@@ -5,4 +5,5 @@ The problem this project aims to solve is predicting student dropout rates based
 
 # 2. Description of Data
 The Dropout dataset is downloaded from Kaggle website. In total, there are 650 student records and 34 features. 
+
 **Attributes of business table are as following:**
