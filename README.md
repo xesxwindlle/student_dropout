@@ -96,6 +96,7 @@ Dropped_Out: Indicator of whether the student has dropped out (True/False).
 
 # 4. Findings
 • "Grade_1”, “Grade_2” appear to be determining of the result in all three models. 
+
 • In the later validation process with boostrap and visualization of confidence interval, there is no statistical difference in terms of accuracy and TPR within these three models. The performance of FPR, however, can be shwon different according to the result. 
 
 
