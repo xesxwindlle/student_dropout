@@ -9,6 +9,7 @@ The Dropout dataset is downloaded from Kaggle website. In total, there are 650 s
 **Attributes of Dropout dataset are as following:**
 
 School: Name of the school attended (e.g., MS).
+
 Gender: Gender of the student (e.g., M for Male, F for Female).
 Age: Age of the student.
 Address: Type of residence (U for urban, R for rural).
