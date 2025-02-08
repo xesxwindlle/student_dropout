@@ -98,6 +98,7 @@ Dropped_Out: Indicator of whether the student has dropped out (True/False).
 
 The three models we chose are Logistic Regression, Classification Tree, and Random Forest. In the context of student dropout prediction, TPR (True Positive Rate) is a key metric because it helps identify students who are actually at risk of dropping out of school, thus allowing schools to intervene promptly. At the same time, FPR (False Positive Rate)
 also needs to be looked at as high FPR can lead to a waste of resources, e.g., allocating limited support resources to students who are actually not at risk. The numerical result shows that:
+
 • Logistic Regression has the highest accuracy (0.944) and the lowest FPR (0.012), making it effective at correctly categorizing students and minimizing resource waste. However, the TPR is low (0.690) compared to the other models, indicating that more students who are at risk of dropping out of school are missed.
 • Classification Tree has the highest TPR (0.828), indicating that it is effective in identifying most of the students at risk of dropping out. However, it has the lowest accuracy (0.877) and the highest FPR (0.114), indicating that more students who are not at risk of dropping out are misclassified as high risk, which may lead to wasted resources.
 • Random Forest achieved a good balance between TPR (0.793) and FPR (0.048) while maintaining a high accuracy (0.928). Despite its balanced performance, it has a slightly lower TPR compared to the Classification Tree and may miss some of the students who are truly at risk.
